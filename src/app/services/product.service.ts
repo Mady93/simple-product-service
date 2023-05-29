@@ -3,7 +3,7 @@ import { Product } from "../models/product";
 
 export class ProductService{
 
-
+/* 
     private products: Product[] = [
         {
           productID: 1,
@@ -20,7 +20,16 @@ export class ProductService{
           name: "Product3",
           price: 5.99
         }
+      ]; */
+
+
+      private products: Product[] = [
+        new Product(1,"Product1",10.99),
+        new Product(2,"Product2",19.99),
+        new Product(1,"Product3",5.99)
       ];
+
+
 
       getProduct(){
 
